@@ -1,0 +1,58 @@
+/* Style sheet for the unibib project */
+
+body {
+color: #000000;
+background: #E8E0D0; 
+margin: 1em;
+}
+
+div#title { 
+background: white;
+padding: 1em;
+font-size: xx-large;
+border: 1px solid #cccccc;
+text-align: center;
+margin-bottom: 1em;
+}
+
+
+div.tab * {
+background: #EFE8E0;
+font-size: small;
+font-weight: bold;
+color: #6c4139;
+border: 1px solid #cccccc;
+text-decoration: none;
+padding: 2px 2px 0px 2px;
+margin-right: 3px;
+}
+div.tab a:hover {
+text-decoration: none;
+background: #ffffff;
+}
+div.tab *.selected {
+background: #ffffff;
+border-bottom: 1px solid #ffffff;
+}
+
+div.box {
+background: #ffffff; 
+color: #000000; 
+padding: 1em; 
+border: 1px solid #cccccc;
+margin: 0 0 1em 0;
+}
+
+h1 { text-align: center; margin: 0 0 5px 0; padding: 0; }
+
+a { font-weight: bold; color: #8B6E4F; background:inherit; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* Forms */
+
+div.group { border: 1px solid #cccccc; padding: 0.2em; margin-top: 0.8em; }
+div.group div.title { position:relative; top: -0.8em; }
+div.group div.title span { background: #ffffff;} 
+
+input { background: #eeeeee; padding: 0.2em; border: 1px solid #888888; }
+
